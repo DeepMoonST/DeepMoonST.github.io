@@ -1,0 +1,9 @@
+<h1>Forum</h1>
+<form action="forum-data.php" method="POST">
+  <textarea name="message" placeholder="Mesajınızı yazın"></textarea>
+  <button type="submit">Gönder</button>
+</form>
+
+<div id="messages">
+  <?php include 'forum-data.php'; ?>
+</div>
